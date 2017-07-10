@@ -1,0 +1,130 @@
+body {
+  background-color: #333366;
+  font-family: Arial;
+}
+
+search {
+  width: 100%;
+  border: yellow 2px solid;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+  border-bottom: solid 3px #99CC33;
+  color: #99CC33;
+}
+
+a{
+  text-decoration: none;
+}
+
+header .container{
+  width: 80%;
+  padding: 10px 0;
+  background-color: #336699;
+  margin: auto;
+  font-size: 130%;
+}
+
+.container p{
+  color: white;
+}
+
+#search .container{
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#search input{
+  padding: 10px 20px;
+  border: 1px black solid;
+}
+
+#search button{
+  padding: 10px;
+  background-color: #99CC33;
+  border: none;
+}
+
+#search button:hover {
+ cursor: pointer;
+ background-color: #336699;
+ color:white; 
+}
+
+#result .container {
+  width: 80%;
+  margin: auto;
+  background-color: #336699;
+  padding: 10px;
+}
+
+#result h1{
+  color: white;
+  font-size: 200%;
+}
+
+#result p{
+  color:#99CC33;
+}
+
+#result h1,
+#result h2,
+#result p{
+  margin-left: 15px;
+}
+/*
+#search {
+  text-align: center;
+}
+button{
+  background-color: gray;
+  color: black;
+  border: 2px solid black;
+  padding: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  
+}
+button:hover {
+    
+    color: white;
+}
+
+input{
+  padding: 2px 16px 0 2px;
+  margin: 50px 0 0 0;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+#block {
+  
+  font-size: 20px;
+  margin: 20px;
+  
+  border: gray solid 1.5px;
+}
+#title1{
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  color: Ivory;
+}
+
+#subTitle{
+  background-color: lightGreen;
+  
+}
+
+#subContent {
+  background-color: black;
+  color: white;
+}
+*/
